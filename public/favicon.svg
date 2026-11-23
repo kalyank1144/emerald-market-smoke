@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Ember and Oak">
+  <rect width="16" height="16" rx="3.5" fill="#0c0a08"/>
+  <path fill="#e3913a" d="M8 1.5c1.15 1.7 3.35 2.45 4.55 3.7-1.25.65-1.45 1.75-.45 2.9-1.55.25-2.5 1.35-2.9 2.85V13.6H6.8v-2.65C6.4 9.45 5.45 8.35 3.9 8.1c1-1.15.8-2.25-.45-2.9C4.65 3.95 6.85 3.2 8 1.5z"/>
+  <circle cx="8" cy="7.35" r="2.15" fill="#ff7a2f"/>
+</svg>
