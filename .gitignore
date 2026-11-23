@@ -1,0 +1,10 @@
+node_modules/
+screenshots/
+artifacts/
+.grok/
+public/__grok/
+.vercel/
+dist/
+*.log
+.env
+.env.*
