@@ -12,16 +12,10 @@ export function ProductCard({ product, onOpen }: ProductCardProps) {
     <button
       type="button"
       onClick={() => onOpen(product)}
-      className="press group flex h-full w-full flex-col overflow-hidden rounded-card border border-line bg-panel text-left transition-colors duration-300 hover:border-ember/70"
+      className="press group flex h-full w-full min-w-0 flex-col overflow-hidden rounded-card border border-line bg-panel text-left transition-colors duration-300 hover:border-ember/70"
     >
       <span className="relative block aspect-square overflow-hidden bg-ink-soft">
-        <img
-          src={product.image}
-          alt=""
-          className="card-photo h-full w-full object-cover"
-          width={800}
-          height={800}
-        />
+        <img src={product.image} alt="" className="card-photo h-full w-full object-cover" />
       </span>
       <span className="flex flex-1 flex-col gap-2 px-4 py-4">
         <span className="text-xs tracking-widest text-ember uppercase">{categoryName(product.category)}</span>
