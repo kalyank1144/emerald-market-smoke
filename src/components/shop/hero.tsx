@@ -33,10 +33,8 @@ export function Hero() {
     <section id="top" className="relative min-h-svh overflow-hidden" style={style}>
       <img
         src="/images/hero.jpg"
-        alt="The dim interior of Emerald Market & Smoke, with glass cases under amber light"
+        alt=""
         className="hero-photo absolute inset-0 h-full w-full object-cover"
-        width={1792}
-        height={1008}
       />
       <div className="hero-shade absolute inset-0" />
       <div className="hero-copy relative mx-auto flex min-h-svh max-w-6xl flex-col justify-end px-4 pt-28 pb-28 md:pb-16">
