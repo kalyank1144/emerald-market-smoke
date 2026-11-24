@@ -22,7 +22,7 @@ export function Featured({ onOpen }: FeaturedProps) {
       </Reveal>
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {featured.map((product, index) => (
-          <Reveal key={product.id} delay={index * 80} className="h-full">
+          <Reveal key={product.id} delay={index * 80} className="h-full min-w-0">
             <ProductCard product={product} onOpen={onOpen} />
           </Reveal>
         ))}
